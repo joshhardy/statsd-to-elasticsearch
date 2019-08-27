@@ -1,0 +1,27 @@
+{
+  "name": "statsd-to-elasticsearch",
+  "version": "0.1.0",
+  "description": "statsd daemon with ENV-configurable elasticsearch backend",
+  "main": "daemon.js",
+  "scripts": {
+    "start": "node daemon.js config.js",
+    "test": "echo \"no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/joshhardy/statsd-to-elasticsearch"
+  },
+  "keywords": [
+    "statsd",
+    "elasticsearch",
+    "metrics",
+    "stats",
+    "udp"
+  ],
+  "author": "Josh Hardy",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch-statsd-backend": "^1.1.1",
+    "statsd": "^0.8.5"
+  }
+}
